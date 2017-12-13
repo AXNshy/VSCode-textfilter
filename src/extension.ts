@@ -32,10 +32,9 @@ export function activate(context: vscode.ExtensionContext) {
                 channel.append(t+"\n");
             }
         }
-    
+        
         channel.show();
         // Display a message box to the user
-        vscode.window.showInformationMessage('Selected characters: ' + text.length);
         // Display a message box to the user
         // vscode.window.showInformationMessage('Hello World!');
     });
